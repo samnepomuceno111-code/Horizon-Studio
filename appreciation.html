@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What You Are to Me — Horizon Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@400..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <section class="header">
+      <nav class="navbar navbar-expand-lg fixed-top shadow" id="mainNavbar">
+  <div class="container-fluid">
+    <h2 class="m-0" style="color:white;font-family:'Caveat Brush',cursive;">Horizon Studio</h2>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navMenu"
+      aria-controls="navMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      style="border-color:rgba(255,255,255,0.7);"
+    >
+      <span class="navbar-toggler-icon" style="filter:invert(1);"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <button
+        class="navbar-close"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+        aria-label="Close navigation"
+      >✕</button>
+      <ul class="navbar-nav ms-auto gap-2">
+        <li class="nav-item"><a class="nav-link" href="index.html">Our Story</a></li>
+        <li class="nav-item"><a class="nav-link" href="monthsary.html">Every Month With You</a></li>
+        <li class="nav-item"><a class="nav-link" href="appreciation.html">What You Are to Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="mid-cont">
+        <h1>Written in the Waves</h1>
+        <p>Every wave carries a little of what I feel for you.</p>
+      </div>
+    </section>
+
+    <div class="jar-page d-flex flex-column align-items-center">
+      <h1 class="jar-title">What You Are to Me</h1>
+      <p class="jar-sub">My love for you is more vast than the deepest ocean, but until I find the words, let this jar hold a piece of it.</p>
+
+      <button class="jar-btn" onclick="pullNote()" aria-label="Open a note from the jar">
+        <svg width="360" height="520" viewBox="0 0 260 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <clipPath id="jarclip">
+              <path d="M28 148 Q20 148 20 165 L20 338 Q20 358 40 362 Q90 370 130 370 Q170 370 220 362 Q240 358 240 338 L240 165 Q240 148 232 148 Z"/>
+            </clipPath>
+          </defs>
+
+          <path d="M28 148 Q20 148 20 168 L20 338 Q20 360 40 364 Q88 372 130 372 Q172 372 220 364 Q240 360 240 338 L240 168 Q240 148 232 148 Z" fill="#dff0f5" stroke="#9dc8d8" stroke-width="1.8"/>
+
+          <g clip-path="url(#jarclip)">
+            <rect x="48" y="148" width="18" height="28" rx="2" fill="#f7cfd0" transform="rotate(-8 48 148)"/>
+            <rect x="72" y="144" width="16" height="32" rx="2" fill="#b8e0ff" transform="rotate(5 72 144)"/>
+            <rect x="94" y="146" width="20" height="26" rx="2" fill="#ffe0a0" transform="rotate(-4 94 146)"/>
+            <rect x="118" y="143" width="16" height="30" rx="2" fill="#c8f0c0" transform="rotate(7 118 143)"/>
+            <rect x="140" y="146" width="18" height="28" rx="2" fill="#ffc8e8" transform="rotate(-6 140 146)"/>
+            <rect x="164" y="144" width="16" height="32" rx="2" fill="#ffe0a0" transform="rotate(4 164 144)"/>
+            <rect x="186" y="147" width="18" height="26" rx="2" fill="#b8e0ff" transform="rotate(-5 186 147)"/>
+            <rect x="58" y="150" width="14" height="24" rx="2" fill="#c8f0c0" transform="rotate(9 58 150)"/>
+            <rect x="106" y="148" width="16" height="28" rx="2" fill="#f7cfd0" transform="rotate(-7 106 148)"/>
+            <rect x="152" y="149" width="14" height="26" rx="2" fill="#ffe0a0" transform="rotate(6 152 149)"/>
+            <rect x="200" y="148" width="16" height="24" rx="2" fill="#ffc8e8" transform="rotate(-4 200 148)"/>
+            <rect x="30" y="168" width="22" height="26" rx="2" fill="#ffe0a0" transform="rotate(-10 30 168)"/>
+            <rect x="55" y="165" width="20" height="28" rx="2" fill="#f7cfd0" transform="rotate(6 55 165)"/>
+            <rect x="80" y="167" width="22" height="26" rx="2" fill="#b8e0ff" transform="rotate(-5 80 167)"/>
+            <rect x="105" y="164" width="20" height="30" rx="2" fill="#c8f0c0" transform="rotate(8 105 164)"/>
+            <rect x="130" y="166" width="22" height="26" rx="2" fill="#ffc8e8" transform="rotate(-7 130 166)"/>
+            <rect x="155" y="164" width="20" height="28" rx="2" fill="#ffe0a0" transform="rotate(5 155 164)"/>
+            <rect x="180" y="166" width="22" height="26" rx="2" fill="#f7cfd0" transform="rotate(-6 180 166)"/>
+            <rect x="205" y="165" width="20" height="28" rx="2" fill="#b8e0ff" transform="rotate(9 205 165)"/>
+            <rect x="28" y="190" width="22" height="24" rx="2" fill="#c8f0c0" transform="rotate(7 28 190)"/>
+            <rect x="52" y="188" width="20" height="26" rx="2" fill="#ffc8e8" transform="rotate(-8 52 188)"/>
+            <rect x="76" y="190" width="22" height="24" rx="2" fill="#ffe0a0" transform="rotate(5 76 190)"/>
+            <rect x="100" y="187" width="20" height="28" rx="2" fill="#f7cfd0" transform="rotate(-6 100 187)"/>
+            <rect x="124" y="189" width="22" height="24" rx="2" fill="#b8e0ff" transform="rotate(9 124 189)"/>
+            <rect x="148" y="187" width="20" height="26" rx="2" fill="#c8f0c0" transform="rotate(-7 148 187)"/>
+            <rect x="172" y="189" width="22" height="24" rx="2" fill="#ffc8e8" transform="rotate(6 172 189)"/>
+            <rect x="196" y="188" width="22" height="26" rx="2" fill="#ffe0a0" transform="rotate(-5 196 188)"/>
+            <rect x="26" y="212" width="24" height="22" rx="2" fill="#f7cfd0" transform="rotate(-9 26 212)"/>
+            <rect x="52" y="210" width="22" height="24" rx="2" fill="#b8e0ff" transform="rotate(6 52 210)"/>
+            <rect x="77" y="212" width="24" height="22" rx="2" fill="#c8f0c0" transform="rotate(-5 77 212)"/>
+            <rect x="103" y="209" width="22" height="26" rx="2" fill="#ffe0a0" transform="rotate(8 103 209)"/>
+            <rect x="128" y="211" width="24" height="22" rx="2" fill="#ffc8e8" transform="rotate(-7 128 211)"/>
+            <rect x="154" y="209" width="22" height="24" rx="2" fill="#f7cfd0" transform="rotate(5 154 209)"/>
+            <rect x="179" y="211" width="24" height="22" rx="2" fill="#b8e0ff" transform="rotate(-6 179 211)"/>
+            <rect x="205" y="210" width="22" height="24" rx="2" fill="#c8f0c0" transform="rotate(9 205 210)"/>
+            <rect x="28" y="232" width="22" height="22" rx="2" fill="#ffe0a0" transform="rotate(7 28 232)"/>
+            <rect x="52" y="230" width="24" height="24" rx="2" fill="#ffc8e8" transform="rotate(-8 52 230)"/>
+            <rect x="78" y="232" width="22" height="22" rx="2" fill="#f7cfd0" transform="rotate(5 78 232)"/>
+            <rect x="102" y="229" width="24" height="26" rx="2" fill="#b8e0ff" transform="rotate(-6 102 229)"/>
+            <rect x="128" y="231" width="22" height="22" rx="2" fill="#c8f0c0" transform="rotate(9 128 231)"/>
+            <rect x="152" y="229" width="24" height="24" rx="2" fill="#ffe0a0" transform="rotate(-7 152 229)"/>
+            <rect x="178" y="231" width="22" height="22" rx="2" fill="#ffc8e8" transform="rotate(6 178 231)"/>
+            <rect x="202" y="230" width="22" height="24" rx="2" fill="#f7cfd0" transform="rotate(-5 202 230)"/>
+            <rect x="26" y="252" width="24" height="22" rx="2" fill="#b8e0ff" transform="rotate(-8 26 252)"/>
+            <rect x="52" y="250" width="22" height="24" rx="2" fill="#c8f0c0" transform="rotate(6 52 250)"/>
+            <rect x="76" y="252" width="24" height="22" rx="2" fill="#ffe0a0" transform="rotate(-5 76 252)"/>
+            <rect x="102" y="249" width="22" height="26" rx="2" fill="#f7cfd0" transform="rotate(9 102 249)"/>
+            <rect x="126" y="251" width="24" height="22" rx="2" fill="#ffc8e8" transform="rotate(-7 126 251)"/>
+            <rect x="152" y="249" width="22" height="24" rx="2" fill="#b8e0ff" transform="rotate(5 152 249)"/>
+            <rect x="176" y="251" width="24" height="22" rx="2" fill="#c8f0c0" transform="rotate(-6 176 251)"/>
+            <rect x="202" y="250" width="22" height="24" rx="2" fill="#ffe0a0" transform="rotate(8 202 250)"/>
+            <rect x="28" y="272" width="22" height="22" rx="2" fill="#ffc8e8" transform="rotate(7 28 272)"/>
+            <rect x="52" y="270" width="24" height="24" rx="2" fill="#f7cfd0" transform="rotate(-8 52 270)"/>
+            <rect x="78" y="272" width="22" height="22" rx="2" fill="#b8e0ff" transform="rotate(5 78 272)"/>
+            <rect x="102" y="269" width="24" height="26" rx="2" fill="#c8f0c0" transform="rotate(-6 102 269)"/>
+            <rect x="128" y="271" width="22" height="22" rx="2" fill="#ffe0a0" transform="rotate(9 128 271)"/>
+            <rect x="152" y="269" width="24" height="24" rx="2" fill="#ffc8e8" transform="rotate(-7 152 269)"/>
+            <rect x="178" y="271" width="22" height="22" rx="2" fill="#f7cfd0" transform="rotate(6 178 271)"/>
+            <rect x="202" y="270" width="22" height="24" rx="2" fill="#b8e0ff" transform="rotate(-5 202 270)"/>
+            <rect x="30" y="292" width="22" height="22" rx="2" fill="#c8f0c0" transform="rotate(-9 30 292)"/>
+            <rect x="55" y="290" width="24" height="24" rx="2" fill="#ffe0a0" transform="rotate(7 55 290)"/>
+            <rect x="81" y="292" width="22" height="22" rx="2" fill="#ffc8e8" transform="rotate(-5 81 292)"/>
+            <rect x="105" y="289" width="24" height="26" rx="2" fill="#f7cfd0" transform="rotate(8 105 289)"/>
+            <rect x="131" y="291" width="22" height="22" rx="2" fill="#b8e0ff" transform="rotate(-6 131 291)"/>
+            <rect x="155" y="289" width="24" height="24" rx="2" fill="#c8f0c0" transform="rotate(5 155 289)"/>
+            <rect x="181" y="291" width="22" height="22" rx="2" fill="#ffe0a0" transform="rotate(-7 181 291)"/>
+            <rect x="205" y="290" width="22" height="24" rx="2" fill="#ffc8e8" transform="rotate(9 205 290)"/>
+            <rect x="32" y="312" width="22" height="22" rx="2" fill="#f7cfd0" transform="rotate(6 32 312)"/>
+            <rect x="57" y="310" width="24" height="24" rx="2" fill="#b8e0ff" transform="rotate(-8 57 310)"/>
+            <rect x="84" y="312" width="22" height="22" rx="2" fill="#c8f0c0" transform="rotate(5 84 312)"/>
+            <rect x="108" y="309" width="24" height="26" rx="2" fill="#ffe0a0" transform="rotate(-6 108 309)"/>
+            <rect x="134" y="311" width="22" height="22" rx="2" fill="#ffc8e8" transform="rotate(9 134 311)"/>
+            <rect x="158" y="309" width="24" height="24" rx="2" fill="#f7cfd0" transform="rotate(-7 158 309)"/>
+            <rect x="184" y="311" width="22" height="22" rx="2" fill="#b8e0ff" transform="rotate(5 184 311)"/>
+            <rect x="208" y="310" width="22" height="24" rx="2" fill="#c8f0c0" transform="rotate(-6 208 310)"/>
+            <rect x="35" y="332" width="22" height="20" rx="2" fill="#ffe0a0" transform="rotate(-7 35 332)"/>
+            <rect x="60" y="330" width="24" height="22" rx="2" fill="#ffc8e8" transform="rotate(6 60 330)"/>
+            <rect x="87" y="332" width="22" height="20" rx="2" fill="#f7cfd0" transform="rotate(-5 87 332)"/>
+            <rect x="111" y="329" width="24" height="24" rx="2" fill="#b8e0ff" transform="rotate(8 111 329)"/>
+            <rect x="137" y="331" width="22" height="20" rx="2" fill="#c8f0c0" transform="rotate(-6 137 331)"/>
+            <rect x="161" y="329" width="24" height="22" rx="2" fill="#ffe0a0" transform="rotate(5 161 329)"/>
+            <rect x="187" y="331" width="22" height="20" rx="2" fill="#ffc8e8" transform="rotate(-7 187 331)"/>
+            <rect x="211" y="330" width="22" height="22" rx="2" fill="#f7cfd0" transform="rotate(8 211 330)"/>
+          </g>
+
+          <path d="M28 148 Q20 148 20 168 L20 338 Q20 360 40 364 Q88 372 130 372 Q172 372 220 364 Q240 360 240 338 L240 168 Q240 148 232 148 Z" fill="none" stroke="#9dc8d8" stroke-width="1.8"/>
+
+          <path d="M38 130 Q38 115 55 112 L205 112 Q222 115 222 130 L232 148 L28 148 Z" fill="#d5ecf4" stroke="#9dc8d8" stroke-width="1.5"/>
+
+          <rect x="38" y="94" width="184" height="42" rx="6" fill="#8a8f94"/>
+          <rect x="38" y="94" width="184" height="7" rx="6" fill="#a0a5aa"/>
+          <rect x="38" y="100" width="184" height="6" fill="#7a7f84"/>
+          <rect x="38" y="105" width="184" height="6" fill="#9a9fa4"/>
+          <rect x="38" y="110" width="184" height="6" fill="#7a7f84"/>
+          <rect x="38" y="115" width="184" height="6" fill="#9a9fa4"/>
+          <rect x="38" y="120" width="184" height="6" fill="#7a7f84"/>
+          <rect x="38" y="125" width="184" height="11" rx="3" fill="#8a8f94"/>
+          <ellipse cx="130" cy="97" rx="90" ry="5" fill="#b0b5ba"/>
+          <ellipse cx="100" cy="96" rx="30" ry="2" fill="#d0d5da" opacity="0.6"/>
+
+          <!-- Ribbon band -->
+          <rect x="38" y="134" width="184" height="12" rx="2" fill="#e8607a" opacity="0.9"/>
+          <rect x="38" y="135" width="184" height="4" rx="2" fill="#f08090" opacity="0.6"/>
+
+          <!-- Bow left loop -->
+          <path d="M120 140 Q100 118 82 122 Q74 124 78 132 Q82 140 100 138 Z" fill="#e8607a"/>
+          <path d="M120 140 Q100 118 82 122 Q74 124 78 132 Q82 140 100 138 Z" fill="none" stroke="#c84060" stroke-width="0.8"/>
+          <path d="M118 140 Q102 124 88 126 Q82 128 85 133 Q88 138 102 137 Z" fill="#f07888" opacity="0.5"/>
+
+          <!-- Bow right loop -->
+          <path d="M140 140 Q160 118 178 122 Q186 124 182 132 Q178 140 160 138 Z" fill="#e8607a"/>
+          <path d="M140 140 Q160 118 178 122 Q186 124 182 132 Q178 140 160 138 Z" fill="none" stroke="#c84060" stroke-width="0.8"/>
+          <path d="M142 140 Q158 124 172 126 Q178 128 175 133 Q172 138 158 137 Z" fill="#f07888" opacity="0.5"/>
+
+          <!-- Bow tails -->
+          <path d="M122 144 Q108 152 96 162 Q90 168 94 170 Q98 172 106 164 Q116 154 124 146 Z" fill="#e8607a"/>
+          <path d="M138 144 Q152 152 164 162 Q170 168 166 170 Q162 172 154 164 Q144 154 136 146 Z" fill="#e8607a"/>
+
+          <!-- Bow knot -->
+          <ellipse cx="130" cy="140" rx="9" ry="7" fill="#d04858"/>
+          <ellipse cx="130" cy="139" rx="5" ry="3" fill="#e87080" opacity="0.5"/>
+
+          <!-- Glass shines -->
+          <path d="M36 168 Q33 220 33 280" stroke="rgba(255,255,255,0.6)" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M46 155 Q43 200 43 255" stroke="rgba(255,255,255,0.35)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M224 168 Q227 220 227 280" stroke="rgba(255,255,255,0.2)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <div class="tap-hint" id="hint">tap the jar</div>
+      <div class="done-msg" id="done">you've read them all — tap to start over</div>
+    </div>
+
+    <!-- Paper modal -->
+    <div class="paper-modal-bg" id="overlay" onclick="closeNote(event)">
+      <div class="paper">
+        <div class="paper-lines">
+          <svg width="100%" height="100%">
+            <defs>
+              <pattern id="pl" x="0" y="40" width="100%" height="34" patternUnits="userSpaceOnUse">
+                <line x1="0" y1="0" x2="100%" y2="0" stroke="#e6dfc8" stroke-width="1"/>
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#pl)"/>
+            <line x1="46" y1="0" x2="46" y2="100%" stroke="#f0c0c0" stroke-width="1" opacity="0.45"/>
+          </svg>
+        </div>
+        <div class="paper-num" id="pnum"></div>
+        <div class="paper-msg" id="pmsg"></div>
+        <button class="paper-close" onclick="closeNote()">fold it back 🌊</button>
+      </div>
+    </div>
+
+    <footer class="mt-auto py-5">
+      <div class="container text-center">
+        <nav class="mb-3 d-flex flex-wrap justify-content-center gap-3">
+          <a href="#">THE STORY</a>
+          <a href="#">THE ANCHOR</a>
+          <a href="#">DEDICATION</a>
+          <a href="#">SITE MAP</a>
+        </nav>
+        <span class="copyright">© 2026 HORIZON CANVAS | Dedicated to My Anchor</span>
+        <br />
+        <a href="mailto:horizoncanvas@gmail.com" class="footer-email">horizoncanvas@gmail.com</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  window.addEventListener('scroll', function () {
+    const nb = document.getElementById('mainNavbar');
+    if (window.scrollY > 10) {
+      nb.classList.add('scrolled');
+    } else {
+      nb.classList.remove('scrolled');
+    }
+  });
+
+  const navMenu = document.getElementById('navMenu');
+  const closeBtn = document.querySelector('.navbar-close');
+  const toggler = document.querySelector('.navbar-toggler');
+
+  navMenu.addEventListener('show.bs.collapse', function () {
+    if (window.innerWidth < 992) {
+      closeBtn.style.display = 'block';
+      toggler.style.display = 'none';
+    }
+  });
+
+  navMenu.addEventListener('hide.bs.collapse', function () {
+    closeBtn.style.display = 'none';
+    toggler.style.display = 'block';
+  });
+
+      const notes = [
+        "You turned my greatest fear into my favorite place in the world. That's not something just anyone can do.",
+        "The way you see beauty in everything — it changed the way I see everything too.",
+        "I love that you love the ocean. Because now, so do I.",
+        "You are the reason I finally understand what it means to feel at home with another person.",
+        "Your laugh is genuinely one of my favorite sounds. I hope you know that.",
+        "You make ordinary days feel like something worth remembering.",
+        "The corny jokes, the late nights, the random tangents — I wouldn't trade any of it.",
+        "You made me believe that 'everything's going to be okay' is a promise, not just a phrase.",
+        "Whale sharks are gentle giants. You're exactly that — powerful, peaceful, and kind.",
+        "I think about the version of me before you, and I'm so glad that's not who I am anymore.",
+        "You are my anchor. Not the kind that holds you down — the kind that keeps you steady.",
+        "Thank you for being patient with me when I needed it most.",
+        "I love you more than I know how to say, so I put it in a jar instead.",
+        "The salt in the air, the sound of the waves — they all remind me of you now.",
+        "You are the first person I want to tell everything to. That means the world to me.",
+        "I'd run away with you. To the ocean, to anywhere. As long as it's with you.",
+        "You are so deeply, genuinely appreciated — not just for what you do, but for who you are.",
+        "I can finally just breathe. That's because of you.",
+      ];
+
+      let order = [], idx = 0;
+
+      function shuffle(a) {
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      }
+
+      function init() {
+        order = shuffle([...Array(notes.length).keys()]);
+        idx = 0;
+      }
+
+      init();
+
+      function pullNote() {
+        if (idx >= notes.length) {
+          init();
+          document.getElementById('done').classList.remove('show');
+          document.getElementById('hint').style.opacity = '1';
+        }
+        document.getElementById('pnum').textContent = 'note ' + (idx + 1) + ' of ' + notes.length;
+        document.getElementById('pmsg').textContent = notes[order[idx]];
+        document.getElementById('overlay').classList.add('open');
+        idx++;
+      }
+
+      function closeNote(e) {
+        if (e && e.target !== document.getElementById('overlay')) return;
+        document.getElementById('overlay').classList.remove('open');
+        if (idx >= notes.length) {
+          document.getElementById('done').classList.add('show');
+          document.getElementById('hint').style.opacity = '0';
+        }
+      }
+    </script>
+  </body>
+</html>
