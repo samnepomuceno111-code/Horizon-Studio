@@ -8,7 +8,7 @@ body {
 .header {
   min-height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(122, 133, 174, 0.7), rgba(73, 81, 110, 0.7)), url("https://i.pinimg.com/1200x/1c/85/c0/1c85c0206e50aa7720fd21fe4bf96daf.jpg");
+  background-image: linear-gradient(rgba(122, 133, 174, 0.7), rgba(73, 81, 110, 0.7)), url("../Horizon-Studio/images/pic.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
